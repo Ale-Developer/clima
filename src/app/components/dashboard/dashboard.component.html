@@ -1,13 +1,13 @@
 <div class="container">
     <div class="row">
         <div class="col lg-6 mt-3">
-            <input [(ngModel)]="ciudad" type="text" class="form-control mb-3" placeholder="ingresar ciudad">
+            <input [(ngModel)]="ciudad" type="text" class="form-control mt-3" placeholder="Ingresar ciudad">
             <br>
-            <button (click)="mClima" class="btn btn-primary btn-lg mb-3">Aceptar</button>
+            <button (click)="mClima()" class="btn btn-primary mb-3">Aceptar</button>
             
             <div class="card-header"><h3>CLIMA ACTUAL</h3></div>
             <div class="card body">
-                <p class="card-text"><b>Temperatura: {{temperatura}}°C</b></p>
+                <p class="card-text"><b> Temperatura: {{temperatura}}°C</b></p>                
             </div>
         </div>
     </div>
